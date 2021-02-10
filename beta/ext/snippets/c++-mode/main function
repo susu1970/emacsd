@@ -1,9 +1,7 @@
 # -*- mode: snippet -*-
-# name: main
+# name: main function
 # key: main
 # --
-#include<iostream>
-using namespace std;
 int main(int argc,char**argv){
-  
+$0
 }

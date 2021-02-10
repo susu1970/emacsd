@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: include user's header
+# key: incusr
+# --
+#include"${1:usrheader}"
+$0

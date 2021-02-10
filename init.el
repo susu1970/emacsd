@@ -12,8 +12,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(company-backends
+   '(company-elisp
+     (company-yasnippet company-capf company-files)
+     (company-keywords)
+     company-nxml company-css company-clang company-cmake company-semantic
+     (company-gtags company-etags)))
  '(package-selected-packages
-   '(yasnippet doom-themes rainbow-delimiters highlight-parentheses)))
+   '(cmake-mode ggtags multiple-cursors flycheck company-fuzzy company-irony irony company yasnippet doom-themes rainbow-delimiters highlight-parentheses)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

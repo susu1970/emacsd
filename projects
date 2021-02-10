@@ -1,3 +1,4 @@
 ;;; -*- lisp-data -*-
-(("~/")
- ("~/.emacs.d/"))
+(("~/susu1970/work/elevencent/")
+ ("~/.emacs.d/")
+ ("~/"))

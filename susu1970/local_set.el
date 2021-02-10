@@ -53,9 +53,10 @@
 (global-set-key (kbd "s-H") 'hs-hide-all)
 (global-set-key (kbd "s-t") 'hs-toggle-hiding)
 ;;project
-(global-set-key (kbd "s-p") 'project-find-file)
 (global-set-key (kbd "s-P") 'project-search)
+(global-set-key (kbd "s-p") 'project-find-file)
 
-
+;;hide all code block
+(add-hook 'hs-minor-mode-hook 'hs-hide-all)
 
 (provide 'local_set)
